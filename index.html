@@ -1,16 +1,18 @@
 ---
-# front matter tells Jekyll to process Liquid
+layout: default
+title: Home
 ---
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>chessPU</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-</head>
-<body>
-    <h1>chessPU</h1>
-    <h1>{{ "Test funcionamiento de Jekyll" | downcase }}</h1>    
-</body>
-</html>
+<h1>chessPU</h1>    
+<h1>{{ "Test funcionamiento de Jekyll" | downcase }}</h1>        
+<h2>Test</h2>
+
+
+<!-- 
+    Menú inspirado en el tipo "Sidenav PUsh Content" de https://www.w3schools.com/howto/howto_js_sidenav.asp
+    cuyo código de puede ver y probar en https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
+-->
+<div id="main">
+    <h2>Sidenav Push Example</h2>
+    <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
