@@ -7,7 +7,6 @@ title: Ajedrez Electrónico
     cuyo código de puede ver y probar en w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
 -->
 ![image]({{ site.baseurl }}{{ site.imagespath }}composition-1.jpeg){: .img-fluid}
-
 # Chess Processing Unit
 Con conocimentos elementales sobre electrónica y sin experiencia real 
 en la creación de circuitos, voy a tratar de crear, partiendo de un 
