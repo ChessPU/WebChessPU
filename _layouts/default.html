@@ -10,8 +10,19 @@
     <link rel="stylesheet" href="/assets/css/sidemenu.css">
 </head>
   <body>
+    {% include topmenu.html %}
     {% include navigation.html %}      
-    {% include sidemenu.html %}      
+    
+    <main role="main" class="container">
+      {% include sidemenu.html %}      
     {{ content }}
+    </main>
+
+    {% comment %} 
+    Cargo el Bootstrap core.
+    Según la documentación, si se pone en esta ubicación, al final de la 
+    página, la carga es más rápida.
+    {% endcomment %}
+    {% include bootstrap.html %}
   </body>
 </html>
