@@ -1,15 +1,15 @@
 ---
 layout: default
 title: El Tablero
+header_image: chessboard/chessboard-1.jpeg
+header_text: El tablero
+header_height: 300px
 ---
 # El tablero
-
 Vamos a transformar el tablero de forma que nos permita proporcionar 
 indicaciones al jugador y también recoger sus movimientos. Lo primro lo haremos
 mediante lefs, y lo segundo mediante sensores magnéticos. Unos y otros los
 gestionaremos con Arduino y algunos circuitos integrados adicionales.
-
-![image]({{ site.baseurl }}{{ site.imagespath }}chessboard/chessboard-1.jpeg){: .img-fluid}
 
 Vamos a transformar el tablero de forma que nos permita proporcionar 
 indicaciones al jugador y también recoger sus movimientos. Lo primero lo haremos

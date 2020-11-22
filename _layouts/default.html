@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="es">
+<head>    
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -11,13 +11,15 @@
 </head>
   <body>
     {% include topmenu.html %}
-    {% include navigation.html %}      
-       
-    <main role="main" class="container">
-      {% include sidemenu.html %}      
-    {{ content }}
-    </main>
-
+    {% include navigation.html %}   
+    <div id="page-content">               
+      {% include page-header.html %}                                 
+      <main role="main" class="container">      
+            
+        {% include sidemenu.html %}      
+        {{ content }}
+      </main>
+    </div>   
     {% include bootstrap.html %}
   </body>
 </html>

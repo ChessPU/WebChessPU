@@ -1,7 +1,44 @@
-.current {
-    color: green;
+/*
+    Nota del 22/11/2020
+    El menú superior tiene las siguientes alturas según la anchura de la pantalla:
+    56px  [  0 - 767]
+    70px  [768 - 991]
+    56px  [992 - ...]
+
+*/
+
+/*
+    Estos tres elementos hacen que el contenido de la página este siembre debajo
+    del menú superior, evitando que éste oculte contenido útil.
+*/
+@media (max-width: 767px) {
+    #page-content {
+        margin-top: 56px;
+    }
 }
 
-.container  {
-    margin-top: 56px;
+@media (min-width: 768px) and (max-width: 991px) {
+    #page-content {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 992px) {
+    #page-content {
+        margin-top: 56px;
+    }
+}
+
+.page-header {
+    background-size: cover;    
+    background-position: center;                                    
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.page-header-text {
+    /* padding-top: 56px; */
+    color: white;
 }
