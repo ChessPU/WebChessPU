@@ -5,18 +5,17 @@
     z-index: 1;
     top: 56px;
     left: 0;
-    background-color: #111;
+    background-color: #fa7e2ec4;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
-    /* font-family: "Lato", sans-serif; */
+    padding-top: 60px;    
   }
   
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 25px;    
+    color: white;
     display: block;
     transition: 0.3s;
   }
