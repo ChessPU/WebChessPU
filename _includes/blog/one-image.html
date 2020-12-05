@@ -1,0 +1,27 @@
+{% comment %}
+    
+    Este módulo tiene como finalidad mostrar una imagen dentro de una entrada de 
+    blog, formateándola mediante Boostrap. 
+
+    Para que funcione, se tienen que asignar estas variables en Liquid:
+
+        {% assign img_url = "/assets/img/components/myimage.jpg" %}
+        {% assign img_description = "My image description" %}
+        {% assign img_style = "max-height: 200px;" %}
+
+        Esta última es opcional y permite asignar estilos a la imagen. Por ejemplo,
+        limitar su altura o darle cualquier otra característica.
+
+    Y luego hacer un include de esta forma:
+
+        {% include blog/one-image.html %}
+
+{% endcomment %}
+<div class="row">
+    <div class="col-md-8 offset-md-2 text-center">
+        <figure class="figure">
+        <img src="{{ img_url }}" class="figure-img img-fluid rounded" alt="{{ img_description }}" style="{{ img_style }}">
+            <figcaption class="figure-caption">{{ img_description }}</figcaption>  
+        </figure>
+    </div>
+</div>
