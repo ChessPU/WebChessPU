@@ -29,7 +29,7 @@ los circuitos integrados han resultado ser terriblemente incómodas.
 {% assign img1_url = "/assets/img/misc/kaos-1.jpeg" %}
 {% assign img1_description = "Imposible trabajar bajo estos cables" %}
 {% assign img2_url = "/assets/img/misc/kaos-2.jpeg" %}
-{% assign img2_description = "Placa y tablero de esto modo impiden cualquier tarea" %}
+{% assign img2_description = "Placa y tablero de este modo impiden cualquier tarea" %}
 {% include blog/two-images.html %}
 
 Cualquier maniobra para hacer una verificación, reparar una conexión o, mucho peor,
@@ -61,7 +61,7 @@ Para no volver a caer en la improvisación, ahora
 voy a seguir un pequeño plan organizado. Además, así se me hace más llevadero; 
 se reduce la sensación de derrota.
 
-- **Desoldar del tablero los cables** provenientes de las placas que tienen los chips 74HC595<br>
+- **Desoldar del tablero los cables provenientes de las placas que tienen los chips 74HC595**<br>
 Tras esta operación, quedarán por un lado las placas con los 74HC595 y los cables, y por otro el tablero ya liberado.
 
 - **Cambiar completamente la filosofía de cableado**<br>
