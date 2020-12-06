@@ -21,7 +21,7 @@ proyecto y hacerlo viable.
 
 La falta de planificación y la impaciencia por pasar a la acción sin pensar
 demasiado en las consecuencias, han convertido el tablero en un verdadero infierno. La
-parte posterior ha quedado convertida en una inmanejable maraña de cables 
+parte posterior es una inmanejable maraña de cables 
 enormes (en grosor y longitud), y las placas montadas en los laterales con 
 los circuitos integrados han resultado ser terriblemente incómodas.
 
