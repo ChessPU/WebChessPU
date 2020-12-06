@@ -54,7 +54,7 @@ conservar ya esta muestra de código, antes de que se me traspapele.
 ```
 Por lo demás, otro día de frío intenso en el que Dana y yo hemos ido por la mañana a Virgen de la Vega a pasear un poco. Lamentablemente, mi estado emocional no ha sido como el de ayer, un día del que disfruté mejorando el blog y dándole contenido. Por la mañana he cumplido con mis obligaciones, pero al volver del paseo todo ha cambiado y la tormenta interior ha vuelto.
 
-Pero no hay otra opción que afrontar la lucha interior y convertir en maestra la instrospección constante a la que obliga esta extraña soledad elegida.
+Pero no hay otra opción que afrontar la lucha y convertir en maestra la instrospección constante a la que obliga esta extraña soledad elegida.
 
 {% assign img_url = "/assets/img/personal/vega3.jpg" %}
 {% assign img_description = "Humilladero de Virgen de la Vega / Alcalá de la Selva" %}
