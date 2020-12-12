@@ -1,0 +1,37 @@
+{% comment %}
+    
+    Este módulo tiene como finalidad mostrar dos imágenes dentro de una página 
+    de la web, formateándola mediante Boostrap. Las imágenes estarán en la misma línea
+    si la pantalla es grande o una debajo de otra si la pantalla es más pequeña.
+
+    Para que funcione, se tienen que asignar estas variables en Liquid:
+
+        {% assign img1_url = "/assets/img/misc/kaos-3.jpeg" %}
+        {% assign img1_description = "Las conexiones a la placas de interfaz se sueltan" %}
+        {% assign img1_style = "border: 2px solid silver;" %}
+        {% assign img2_url = "/assets/img/misc/kaos-4.jpeg" %}
+        {% assign img2_description = "Los conectores se desprenden" %}    
+        {% assign img2_style = "border: 2px solid silver;" %}    
+
+        img1_style e img2_style son opcionales y permiten asignar estilos a las imágenes. 
+        Por ejemplo, limitar su altura o darle cualquier otra característica.
+
+    Y luego hacer un include de esta forma:
+
+        {% include page/two-images.html %}
+
+{% endcomment %}
+<div class="row">
+    <div class="col-md-6 offset-md-0 text-center">
+        <figure class="figure">
+        <img src="{{ img1_url }}" class="figure-img img-fluid rounded" alt="{{ img1_description }}" style="{{ img1_style }}">
+            <figcaption class="figure-caption">{{ img1_description }}</figcaption>  
+        </figure>
+    </div>
+    <div class="col-md-6 offset-md-0 text-center">
+        <figure class="figure">
+        <img src="{{ img2_url }}" class="figure-img img-fluid rounded" alt="{{ img2_description }}" style="{{ img2_style }}">
+            <figcaption class="figure-caption">{{ img2_description }}</figcaption>  
+        </figure>
+    </div>    
+</div>
