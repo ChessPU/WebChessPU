@@ -7,7 +7,7 @@ location: Mora de Rubielos
 Como sigo sin poder salir de la comunidad autónoma de Aragón y este día ventoso tampoco acompaña mucho, otro
 sábado que dedico a avanzar un poco chessPU.com.
 
-En esta ocasión he iniciado la página dedicada al [página dedicada al Shift Register 74HC595]({{ site.baseurl }}{% link pages/shiftregister-74HC595.md %}), chip que va a jugar un papel fundamental en
+En esta ocasión he iniciado la página dedicada a Shift Register 74HC595, chip que va a jugar un papel fundamental en
 el control de los leds del tablero. Mi velocidad de caracol no me ha permitido ir mucho más allá de una introducción
 y una breve explicación de los pines, pero en los próximos días espero completar la página con 
 la información suficiente para poder abordar el montaje físico del sistema de control de los leds.
