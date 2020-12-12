@@ -27,8 +27,8 @@ bajo nivel, aquí está su [Data Sheet]({{ site.assetspath }}/pdf/74HC595-data-s
 ## Pines
 
 ---
-No nos tenemos que preocupar demasiado si la breve descripción de los pines que se hace a continuación no la entendemos.
-En primer lugar, las mismas no proporcionan información suficiente para entender el funcionamiento del chip , y en segundo lugar y más importante, **los pines "complicados" (DS, STCP y SHCP) los gestionaremos con una librería de Arduino** que se encargará del trabajo duro.
+No nos tenemos que preocupar demasiado si no entendemos la breve descripción de los pines que se hace a continuación .
+En primer lugar, éstas no proporcionan información suficiente para entender el funcionamiento del chip, y en segundo lugar y más importante, **los pines "complicados" (DS, STCP y SHCP) los gestionaremos con una librería de Arduino** que se encargará del trabajo duro.
 
 {% assign img_url = "/assets/img/chips/74HC595-chip-1.png" %}
 {% assign img_description = "Chip 74HC595" %}
