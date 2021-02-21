@@ -18,3 +18,13 @@ Internet y capaz de jugar automáticamente.
 <!--
     Ver si utilizo la paleta de colores https://coolors.co/173753-6daedb-2892d7-1b4353-1d70a2
 -->
+
+### Páginas locas todavía sin organizar
+
+[Tablero (perforación y etiquetado)]({{ site.url }}/tablero.html)
+
+[Shift Register 74HC595]({{ site.url }}/pages/shiftregister-74HC595.html)
+
+[Módulo de expansión  32 GPIO]({{ site.url }}/modulo-de-expansion-32-GPIO.html)
+
+[Tablero (control de leds)]({{ site.url }}/pages/tablero-control-de-leds.html)
