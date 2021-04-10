@@ -8,7 +8,7 @@ pygment_theme: default
 Hoy, al trabajar con el proyecto en un equipo distinto del habitual, me he encontrado con la siguiente sorpresa de que al subir el sketch se quedaba indefinidamente en estado "Subiendo", y si lo volvía a intentar, entonces ya me aparecía al m ensaje 
 
 ```
-Ha habido un error mientras se enviaba el sktech
+Ha habido un error mientras se enviaba el skeTch
 ```
 
 {% assign img_url = "/assets/img/blog/2021-04-04/error-subiir-sketch.png" %}
