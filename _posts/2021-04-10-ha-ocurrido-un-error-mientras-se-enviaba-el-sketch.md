@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Arduino - Problema subiendo a la placa
-# permalink: /blog/:day-:month-:year/pantallas.html
 location: Mora de Rubielos
 pygment_theme: native
+main_image: /assets/img/blog/2021-04-10/error-arduino.png
 ---
 Hoy una nueva sorpresa: al subir el sketch a la placa me ha aparecido el error *"Problema subiendo a la placa. Visita http://www.arduino.cc/en/Guide/Troubleshooting#upload para sugerencias."*, acompañado de mensajes como los siguientes:
 

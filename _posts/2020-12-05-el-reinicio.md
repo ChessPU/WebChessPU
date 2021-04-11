@@ -3,6 +3,7 @@ layout: post
 title:  El reinicio
 permalink: /blog/:day-:month-:year/el-reinicio.html
 location: Mora de Rubielos
+main_image: /assets/img/personal/mora-development-desk-2020-12-05.jpeg
 ---
 Sábado frío en Mora de Rubielos. Tan frío que lo mejor es quedarse en casa 
 calentito y tratar de disfrutar un poco de cosas como el intelecto, la creatividad y la 

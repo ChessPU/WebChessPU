@@ -3,6 +3,7 @@ layout: post
 title: Múltiples leds con Arduino
 permalink: /blog/:day-:month-:year/multiples-leds-con-arduino
 location: Mora de Rubielos
+main_image: /assets/img/personal/virgen-de-la-vega-1-16-01-2021-2.jpeg
 ---
 Las intensas nevadas del fin de semana pasado han dado paso a unos días de 
 mucho hielo y, aunque ya se puede circular en coche, solo hemos hecho una breve

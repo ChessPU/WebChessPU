@@ -4,6 +4,7 @@ title:  Pantallas
 permalink: /blog/:day-:month-:year/pantallas.html
 location: Mora de Rubielos
 pygment_theme: default
+main_image: /assets/img/misc/screens/lcd24x10.png
 ---
 He probado tres opciones para dotar al tablero de pantalla. Ordenadas de menos artenal a más, son las siguientes:
 

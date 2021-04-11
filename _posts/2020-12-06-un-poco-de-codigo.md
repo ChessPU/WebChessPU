@@ -4,6 +4,7 @@ title:  Un poco de código
 permalink: /blog/:day-:month-:year/un-poco-de-codigo.html
 location: Mora de Rubielos
 pygment_theme: native
+main_image: /assets/img/personal/vega3.jpg
 ---
 El único objetivo de la entrada de hoy es conservar el código de Arduino que he utilizado
 en la gestión en serie de los chips 74HC595 para controlar los leds del tablero. 

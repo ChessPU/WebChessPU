@@ -4,6 +4,7 @@ title:  Error al subir el sketch
 permalink: /blog/:day-:month-:year/pantallas.html
 location: Mora de Rubielos
 pygment_theme: default
+main_image: /assets/img/blog/2021-04-04/error-subir-small.png
 ---
 Hoy, al trabajar con el proyecto en un equipo distinto del habitual, me he encontrado con la siguiente sorpresa de que al subir el sketch se quedaba indefinidamente en estado "Subiendo", y si lo volvía a intentar, entonces ya me aparecía al m ensaje 
 

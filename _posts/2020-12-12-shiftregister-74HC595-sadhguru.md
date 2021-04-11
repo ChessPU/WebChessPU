@@ -3,6 +3,7 @@ layout: post
 title:  Shift Register 74HC595 y Sadhguru
 permalink: /blog/:day-:month-:year/shiftregister-74HC595-sadhguru.html
 location: Mora de Rubielos
+main_image: /assets/img/personal/sadhguru-book.jpeg
 ---
 Como sigo sin poder salir de la comunidad autónoma de Aragón y este día ventoso tampoco acompaña mucho, otro
 sábado que dedico a avanzar un poco chessPU.com.
