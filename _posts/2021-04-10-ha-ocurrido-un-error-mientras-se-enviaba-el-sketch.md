@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Arduino - Problema subiendo a la placa
+title:  Problema subiendo a la placa
 location: Mora de Rubielos
 pygment_theme: native
 main_image: /assets/img/blog/2021-04-10/error-arduino.png
