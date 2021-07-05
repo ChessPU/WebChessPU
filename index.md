@@ -10,7 +10,9 @@ header_height: 300px
     cuyo código de puede ver y probar en w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
 -->
 ## El proyecto
-Con larga experiencia en programación, pero muy elementales conocimientos sobre electrónica y creación de circuitos, voy a tratar de construir un ajedrez electrónico capaz de jugar contra nosotros, partiendo de un tablero de madera convencional. Lo he bautizado Chess Processing Unit, **ChessPU** para abreviar. La verdad es que hacerlo desde cero sobre la base de un simple tablero, hace que el proyecto me resulte emocionante. Va a ser todo un reto conseguirlo.
+Con larga experiencia en programación, pero muy elementales conocimientos sobre electrónica y creación de circuitos, voy a tratar de construir un ajedrez electrónico capaz de jugar contra nosotros, partiendo de un tablero de madera convencional. 
+
+Lo he bautizado Chess Processing Unit, **ChessPU** para abreviar. La verdad es que hacerlo desde cero sobre la base de un simple tablero, hace que el proyecto me resulte emocionante. Va a ser todo un reto conseguirlo.
 
 ### El concepto
 El proyecto se va a fundamentar en tres elementos:
