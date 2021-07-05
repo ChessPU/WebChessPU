@@ -24,3 +24,7 @@ y la representación en pantalla del tablero, ya he podido jugar.
 La verdad es que este paso me anima a continuar. Las piezas que hasta ahora
 estaba preparando de forma independiente han empezado a encajar y el resultado
 es muy prometedor.
+
+El paso siguiente que tengo previsto es concluir la señalización mediante leds
+de los movimientos del jugador humano, e implementar la señalización de los 
+movimiendos de Stockfish.
