@@ -38,7 +38,6 @@ broca de 3 mm. Los leds encajarán perfectamente en estos agujeros.
 Ahora, antes de seguir adelante, vamos a etiquetar cada uno de los escaques por
 su parte posterior. Lo haremos empleando la clásica __notación algebraica__.
 
-
 {% assign img_url = "/assets/img/chessboard/algebraic-notation.jpg" %}
 {% assign img_description = "" %}
 {% include blog/one-image.html %}
