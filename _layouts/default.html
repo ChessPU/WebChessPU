@@ -21,6 +21,10 @@
             
         {% include sidemenu.html %}      
         {{ content }}
+        <hr>
+        <b>Última revisión/actualización</b><br> 
+        {{ page.last_update_date }} en {{ page.last_update_location }}
+        <br><br>
       </main>
     </div>   
     {% include bootstrap.html %}

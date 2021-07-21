@@ -2,6 +2,10 @@
   <div class="container-fluid page-header" 
        style="height: {{ page.header_height }}; 
               background-image: url({{ site.baseurl }}{{ site.imagespath }}{{ page.header_image }});">      
-    <h1 class="display-4 text-center page-header-text">{{ page.header_text }}</h1>
+    <div class="text-center">
+      <span class="display-4 page-header-text">{{ page.header_text }}</span>
+      <br>
+      <span class="h3 page-header-text">{{ page.subheader_text }}</span>
+    </div>  
   </div>  
 {% endif %}
