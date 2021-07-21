@@ -10,34 +10,48 @@ header_height: 300px
     cuyo código de puede ver y probar en w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
 -->
 ## El proyecto
-Con larga experiencia en programación, pero muy elementales conocimientos sobre electrónica y creación de circuitos, voy a tratar de construir un ajedrez electrónico capaz de jugar contra nosotros, partiendo de un tablero de madera convencional. 
+Con larga experiencia en programación, pero muy elementales conocimientos sobre electrónica y creación de circuitos, voy a tratar de construir un ajedrez electrónico capaz de jugar contra nosotros.
 
-Lo he bautizado Chess Processing Unit, **ChessPU** para abreviar. La verdad es que hacerlo desde cero sobre la base de un simple tablero, hace que el proyecto me resulte emocionante. Va a ser todo un reto conseguirlo.
+Lo he bautizado Chess Processing Unit (**ChessPU** para abreviar). La verdad es que hacerlo partiendo de un sencillo tablero de madera, hace que el proyecto me resulte emocionante. Va a ser todo un reto conseguirlo.
 
 ### El concepto
-El proyecto se va a fundamentar en tres elementos:
+El conjunto del sistema se va a fundamentar en estos elementos:
+- Un tablero
 - Arduino
-- Python
+- Python (corriendo sobre Raspberry PI)
 - Stockfish
 
-(Poner aquí esquema gráfico con las interacciones y las librerías. 
-Mejor hacerlo en vertical con gráficos de Google.)
+{% assign img_url = "/assets/img/schemes/base-chesspu-1-small.png" %}
+{% assign img_description = "" %}
+{% include blog/one-image.html %}
+
+#### A. El tablero
+Lógicamente es la base física primordial del proyecto. Le iremos haciendo modificaciones para que pase de ser una sencilla superficie de madera cuadriculada a una herramienta que permita la interacción entre el jugador humano y la máquina.
+
+- [Perforación y etiquetado]({{ site.url }}/pages/tablero.html)
 
 #### Arduino
+Con Ardu
+
 #### Python
+
+
+
 #### Stockfish
 
 
-<!--
-    Ver si utilizo la paleta de colores https://coolors.co/173753-6daedb-2892d7-1b4353-1d70a2
--->
 
-### Páginas locas todavía sin organizar
 
-[Tablero (perforación y etiquetado)]({{ site.url }}/tablero.html)
 
 [Shift Register 74HC595]({{ site.url }}/pages/shiftregister-74HC595.html)
 
 [Módulo de expansión  32 GPIO]({{ site.url }}/modulo-de-expansion-32-GPIO.html)
 
 [Tablero (control de leds)]({{ site.url }}/pages/tablero-control-de-leds.html)
+
+<!--
+    Ver si utilizo la paleta de colores https://coolors.co/173753-6daedb-2892d7-1b4353-1d70a2
+-->
+
+
+
