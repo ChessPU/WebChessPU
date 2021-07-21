@@ -31,7 +31,7 @@ hacer una marca con rotulador.
 Una vez tenemos marcadas todas las casillas, procederemos a perforar con una 
 broca de 3 mm. Los leds encajarán perfectamente en estos agujeros.
 
-{% assign img_url = "/assets/img/chessboard/chessboard-marks-2.jpg" %}
+{% assign img_url = "/assets/img/chessboard/chessboard-marks-3.jpg" %}
 {% assign img_description = "" %}
 {% include blog/one-image.html %}
 
