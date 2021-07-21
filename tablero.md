@@ -33,7 +33,7 @@ hacer una marca con rotulador.
 Una vez tenemos marcadas todas las casillas, procederemos a perforar con una 
 broca de 3 mm. Los leds encajarán perfectamente en estos agujeros.
 
-![image]({{ site.baseurl }}{{ site.imagespath }}chessboard/chessboard-marks-2.jpg){: .img-fluid}
+![image]({{ site.baseurl }}{{ site.imagespath }}chessboard/chessboard-marks-3.jpg){: .img-fluid}
 
 Ahora, antes de seguir adelante, vamos a etiquetar cada uno de los escaques por
 su parte posterior. Lo haremos empleando la clásica __notación algebraica__.
