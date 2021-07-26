@@ -1,9 +1,10 @@
 <div class="col-12 col-sm-12 col-md-6 col-lg-4">
     <div class="card">
-        <img class="card-img" src="{{ post.main_image }}" alt="{{ post.title }}">
+        <a href="{{ post.url }}" class="stretched-link"><img class="card-img" src="{{ post.main_image }}" alt="{{ post.title }}"></a>
         <div class="card-img-overlay">
-            
+            <!--
             <a href="{{ post.url }}" class="btn btn-warning btn-sm" style="border: 1px solid white; color: white; background-color: #EF8138;">Leer más</a>
+            -->
             
         </div>
         <div class="card-body">
@@ -14,7 +15,8 @@
                 <i class="fas fa-users text-info"></i> 4 portions
             </small>
             -->
-            <p class="card-text">{{ post.excerpt }}</p>            
+            <p class="card-text">{{ post.excerpt }}</p>                   
+            <a href="{{ post.url }}" class="btn btn-warning btn-sm" style="border: 1px solid white; color: white; background-color: #EF8138;">Leer más</a>    
         </div>
         <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
             <div class="views">{{ post.date | date_to_long_string }}</div>
