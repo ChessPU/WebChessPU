@@ -10,7 +10,7 @@ Primeras indicaciones a través de los leds para organizar el principio de la pa
 Al empezar, las dos primeras filas de leds de las piezas blancas y negras están iluminados para indicar que debemos
 colocar las piezas en la posición incial. Una vez hecho esto, pulsamos el joystick para informar de ello a ChessPU.
 
-Inmediatamente, los leds empiezan a parpadear avisando de que el comienzo de partida es inminente. Una pulsación de joystiCk MÁS
+Inmediatamente, los leds empiezan a parpadear avisando de que el comienzo de partida es inminente. Otra pulsación de joystick
 hará que esta empieze definitivamente, aunque de momento siempre con el jugador humano haciendo el primer movimiento con blancas.
 
 <div class="embed-responsive embed-responsive-16by9">
