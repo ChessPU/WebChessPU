@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row d-flex justify-content-between">
+        <div class="col-xs-6">
+            {% if page.previous.url %}    
+                <a class="btn btn-outline-secondary" href="{{ page.previous.url }}">                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path>
+                    </svg>
+                    <span class="d-sm-none d-inline">Anterior</span><span class="d-none d-sm-inline">Anterior {{ page.previous.report_id }}</span>
+                </a>                         
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="silver" class="d-sm-none d-inline bi bi-info-square-fill" viewBox="0 0 16 16" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ page.previous.title }}">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                </svg>                
+            {% endif %}              
+        </div>
+        <div class="col-xs-6">
+            {% if page.next.url %}           
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="silver" class="d-sm-none d-inline bi bi-info-square-fill" viewBox="0 0 16 16" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ page.next.title }}">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                </svg>              
+                <a class="btn btn-outline-secondary" href="{{ page.next.url }}">
+                    <span class="d-sm-none d-inline">Siguiente</span><span class="d-none d-sm-inline">Siguiente {{ page.next.report_id }}</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                    </svg>
+                </a>                                    
+            {% endif %}              
+        </div>        
+    </div>        
+    <div class="row d-flex justify-content-between">                              
+        <div class="col-xs-6 text-left">            
+            {% if page.previous.url %}         
+                <span class="d-none d-sm-inline post-previous-desc">{{ page.previous.title }}</span>
+            {% endif %}                                
+        </div> 
+        <div  class="col-xs-6 text-right">            
+            {% if page.next.url %}                          
+                <span class="d-none d-sm-inline post-next-desc">{{ page.next.title }}</span>
+            {% endif %}                
+        </div>        
+    </div>     
+</div>
+<br>

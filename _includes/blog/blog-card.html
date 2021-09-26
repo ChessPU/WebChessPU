@@ -15,18 +15,18 @@
                 <i class="fas fa-users text-info"></i> 4 portions
             </small>
             -->
-            <p class="card-text">{{ post.excerpt }}</p>                   
-            <a href="{{ post.url }}" class="btn btn-warning btn-sm" style="border: 1px solid white; color: white; background-color: #EF8138;">Leer más</a>    
+            <p class="card-text">{{ post.excerpt }}</p>                    
+            <p>{{ post.date | date: "%d/%m/%Y" }}</p>
         </div>
+        <!--
         <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
-            <div class="views">{{ post.date | date_to_long_string }}</div>
-            <!--
+            <div class="views">{{ post.date | date_to_long_string }}</div>        
             <div class="stats">
                 <i class="far fa-eye"></i> 1347
                 <i class="far fa-comment"></i> 12
-            </div>            
-            -->
+            </div>                    
         </div>
+        -->
     </div>
     <br>
 </div>
