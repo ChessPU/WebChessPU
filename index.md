@@ -38,7 +38,7 @@ Con Ardu
 
 
 #### Stockfish
-
+[Instalar Stochfish]/({{ site.url }}/pages/instalar-stockfish.html)
 
 
 
