@@ -11,9 +11,9 @@ last_update_location: Benissa
 ---
 ## Stockfish
 ---
-Stockfish es un motor de ajedrez de código abierto. Será nuestro rival en las partidas con ChessPU, encargándose de dar respuesta nuestros movimientos y de gestionar el juego en general. En [Wikipedia](https://es.wikipedia.org/wiki/Stockfish) hay una pequeña descripción de Stockfish que permite conocer algunos detalles sobre él. Si queremos profundizar, podemos acceder al [proyecto oficial en GitHub](https://github.com/official-stockfish/Stockfish).
+Stockfish es un motor de ajedrez de código abierto. Será nuestro rival en las partidas con ChessPU, encargándose de dar respuesta a nuestros movimientos y de gestionar el juego en general. En [Wikipedia](https://es.wikipedia.org/wiki/Stockfish) hay una pequeña descripción de Stockfish que permite conocer algunos detalles sobre él. Si queremos profundizar, podemos acceder al [proyecto oficial en GitHub](https://github.com/official-stockfish/Stockfish).
 
-Inicialmente, mientras estemos en el proceso de montaje del tablero, lo más cómodo será tenerlo instalado en nuestro Windows. De este modo podremos gestionarlo todo desde nuestro PC cómodamente. Más adelante ya abordaremos la instalación en Raspberry, que nos permitirá prescindir del ordenador y que el tablero sea completamente autónomo.
+Inicialmente, mientras estemos en el proceso de montaje del tablero, lo más cómodo será tenerlo instalado en nuestro Windows. De este modo podremos gestionarlo todo desde nuestro PC cómodamente. Más adelante ya abordaremos la instalación en Raspberry, lo que nos permitirá prescindir del ordenador y que el tablero sea completamente autónomo.
 
 ## Instalación
 ---
@@ -24,7 +24,7 @@ En primer lugar descargaremos Stockfish desde el [área de descarga](https://sto
 {% assign img_style = "border: 1px solid silver;" %}
 {% include page/one-image.html %}
 
-No se trata de un instalador ejecutable, sino de un fichero .zip que tendremos que desempaquetar en una carpeta de nuestra elección. Yo lo he hecho en C:\Stockfish, quedando finalmente instalado en C:\Stockfish\stockfish_14_win_x64_popcnt.
+No se trata de un instalador ejecutable, sino de un fichero .zip que tendremos que desempaquetar en una carpeta de nuestra elección. Yo lo he hecho en C:\Stockfish, quedando finalmente instalado en la carpeta C:\Stockfish\stockfish_14_win_x64_popcnt\.
 
 {% assign img_url = "/assets/img/stockfish/stockfish-directory.png" %}
 {% assign img_description = "Stocksfish instalado (sencillamente desempaquetado)" %}
@@ -33,7 +33,7 @@ No se trata de un instalador ejecutable, sino de un fichero .zip que tendremos q
 
 ## Nociones
 ---
-Stockfish utiliza [UCI (Universal Chess Interface)](https://backscattering.de/chess/uci/). Dispone de la mayoría de las opciones UCI descritas en [este documento](https://www.shredderchess.com/download/div/uci.zip) que podemos descargar.
+Stockfish utiliza [UCI (Universal Chess Interface)](https://backscattering.de/chess/uci/) para comunicarse. Dispone de la mayoría de las opciones UCI descritas en [este documento](https://www.shredderchess.com/download/div/uci.zip) que podemos descargar.
 
 Para utilizarlo e interactuar con él de forma directa hay que lanzar el ejecutable (en mi caso stockfish_14_x64_popcnt.exe), lo que abrirá una ventana de consola típica en la que, dejando a un lado las opciones de configuración y otras cuestiones, lo más directo y elemental que cabe destacar es que, **cada vez que queramos obtener un movimiento de Stockfish, tenemos que proporcionarle la disposición completa del tablero**. De hecho, en la descripción oficial del UCI se dice de forma explícita que "Before the engine is asked to search on a position, there will always be a position command to tell the engine about the current position".
 
