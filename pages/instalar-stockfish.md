@@ -35,9 +35,11 @@ No se trata de un instalador ejecutable, sino de un fichero .zip que tendremos q
 ---
 Stockfish utiliza [UCI (Universal Chess Interface)](https://backscattering.de/chess/uci/) para comunicarse. Dispone de la mayoría de las opciones UCI descritas en [este documento](https://www.shredderchess.com/download/div/uci.zip) que podemos descargar.
 
-Para utilizarlo e interactuar con él de forma directa hay que lanzar el ejecutable (en mi caso stockfish_14_x64_popcnt.exe), lo que abrirá una ventana de consola típica en la que, dejando a un lado las opciones de configuración y otras cuestiones, lo más directo y elemental que cabe destacar es que, **cada vez que queramos obtener un movimiento de Stockfish, tenemos que proporcionarle la disposición completa del tablero**. De hecho, en la descripción oficial del UCI se dice de forma explícita que "Before the engine is asked to search on a position, there will always be a position command to tell the engine about the current position".
+Para utilizarlo e interactuar con él de forma directa, hay que lanzar el ejecutable (en mi caso stockfish_14_x64_popcnt.exe), lo que abrirá una ventana de consola en la que podremos teclear los distintos comandos UCI para enviar intrucciones o solicitar información a Stockfish.
 
-La forma más sencilla de comunicarle el estado del tablero es utilizando la [notación FEN](https://ajedrez.pro/notacion-fen) (Forsythe-Edwards Notation).
+Dejando a un lado las opciones de configuración y otras cuestiones, cabe destacar que, **cada vez que queramos obtener un movimiento de Stockfish, tendremos que proporcionarle la disposición completa del tablero**. De hecho, en la descripción oficial del UCI se dice de forma explícita que "Before the engine is asked to search on a position, there will always be a position command to tell the engine about the current position".
+
+Y el modo más sencillo de comunicarle el estado del tablero es utilizando la [notación FEN](https://ajedrez.pro/notacion-fen) (Forsythe-Edwards Notation).
 
 {% assign img_url = "/assets/img/stockfish/stockfish-console.png" %}
 {% assign img_description = "Stockfish en ejecución en Windows" %}
@@ -61,4 +63,13 @@ Y el resultado nos aparece en la línea señalada con la flecha roja al final, i
 ```
     bestmove d7d6 ponder d2d4
 ```
+
+Otra cosa destacable es que el **comando "d"** (que no he encontrado en UCI) permite mostrar de forma gráfica la situación actual del juego.
+
+{% assign img_url = "/assets/img/stockfish/stockfish-d-command.png" %}
+{% assign img_description = "Resultado de mandar 'd' a Stockfish" %}
+{% assign img_style = "border: 1px solid silver;" %}
+{% include page/one-image.html %}
+
+
 
