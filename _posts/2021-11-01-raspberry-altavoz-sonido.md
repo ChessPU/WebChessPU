@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Raspberry. Sin sonido ...
+title: Raspberry. Sin sonido...
 location: Mora de Rubielos
 pygment_theme: native
 main_image: /assets/img/raspberry/speakers-2.jpg
