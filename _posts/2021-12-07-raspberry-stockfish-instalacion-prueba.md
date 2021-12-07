@@ -5,7 +5,7 @@ location: Mora de Rubielos
 pygment_theme: native
 main_image: /assets/img/blog/2021-12-07/header.png
 ---
-He perdido mucho tiempo con innecesarios e infructuosos intentos de compilación de Stockfish en la Raspberry Pi 2. Estaba convencido de que esta era la única vía para instalarlo en Raspbian, pero, para mi sorpresa, la instalación solo requería una instrucción desde consola:
+He perdido mucho tiempo con innecesarios e infructuosos intentos de compilación de Stockfish en la Raspberry Pi 2. Estaba convencido de que la compilación manual era la única vía para instalarlo en Raspbian, pero, para mi sorpresa, la instalación solo requería una instrucción desde consola:
 
 ```console
 
