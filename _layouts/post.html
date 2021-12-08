@@ -22,13 +22,16 @@
     {% include topmenu.html %}
     {% include navigation.html %}       
     <br><br>
-    <div id="page-content" style="border: 0px solid lime; margin-left: 16px; margin-right: 16px; margin-top: 32px;">      
+    <div id="page-content" style="margin-left: 16px; margin-right: 16px; margin-top: 32px;">      
       <main role="main" class="container" id="post-main-container"> 
-        {% if page.main_image %}     
-          {% assign img_url = page.main_image %}
-          {% assign img_description = "" %}
-          {% include blog/one-image-wide.html %}
-        {% endif %}
+        <div class="post-header">
+          {% if page.main_image %}     
+            {% assign img_url = page.main_image %}
+            {% assign img_description = "" %}
+            {% assign img_style = "max-height: 360px;" %}
+            {% include blog/one-image-wide.html %}            
+          {% endif %}
+        </div>
   
         <h1 class="display-4">{{ page.title }}</h1>        
         <p class="lead">

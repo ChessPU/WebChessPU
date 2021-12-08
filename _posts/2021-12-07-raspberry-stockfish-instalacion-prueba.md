@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Raspberry. Instalación y prueba de Stockfish.
+title: Stockfish en Raspberry Pi.
 location: Mora de Rubielos
 pygment_theme: native
 main_image: /assets/img/blog/2021-12-07/header.png
 ---
+##### Instalación
 He perdido mucho tiempo con innecesarios e infructuosos intentos de compilación de Stockfish en la Raspberry Pi 2. Estaba convencido de que la compilación manual era la única vía para instalarlo en Raspbian, pero, para mi sorpresa, la instalación solo requería una instrucción desde consola:
 
 ```console
@@ -32,3 +33,18 @@ el motor de ajedrez se ha ejecutado a la primera y sin contratiempos. Para compr
         {% assign img_style = "" %}
 
         {% include blog/one-image.html %}
+
+
+##### Ubicación
+Una vez concluida la instalación, editando el fichero
+```console
+
+    vi /var/lib/dpkg/info/stockfish.list
+
+```
+podemos conocer la ubicacion de los componentes de Stockfish. Concretamente, el ejecutable queda en
+```console
+
+    /usr/games/stockfish
+
+```

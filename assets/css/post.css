@@ -21,6 +21,11 @@ body {
     border-radius: 8px;   
 }
 
+.post-header {
+    padding-top: 24px; 
+    background-color: #F6F6F6;
+}
+
 /*
 #main-image-div {
     background-color: #F9F9FB; 
