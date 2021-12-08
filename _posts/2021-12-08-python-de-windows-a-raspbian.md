@@ -5,9 +5,9 @@ location: Mora de Rubielos
 pygment_theme: native
 main_image: /assets/img/raspberry/windows-raspberry-logo1.jpg
 ---
-Ha llegado el momento de migrar de Windows a Raspbian el proyecto ChessPUPython (escrito en Python por si el nombre de jaba alguna duda). Windows nos ha servido para el desarrollo y las pruebas, pero para que el tablero funcione de forma autónoma tenemos que sustituir el PC por una placa Raspberry Pi (en mi caso la Raspberry Pi 2 Model B).
+Ha llegado el momento de migrar de Windows a Raspbian el proyecto ChessPUPython (escrito en Python por si el nombre dejaba alguna duda). Windows nos ha servido para el desarrollo y las pruebas, pero para que el tablero funcione de forma autónoma tenemos que sustituir el PC por una placa Raspberry Pi (en mi caso la Raspberry Pi 2 Model B).
 
-Aprovecho para recordar que ChessPUPython es el progarma que se encarga de intermediar entre la electrónica de Arduino y el motor de juego Stocfish. Como mi esperiencia con Python es más que limitada, he tenido que lidiar con algunas sorpresas al ejecutar ChessPUPython en la Raspeberry, así que he aprovechado para, además de hacer las correciones obligadas, hacer algunas otras mejoras.
+Aprovecho para recordar que ChessPUPython es el programa que se encarga de intermediar entre la electrónica de Arduino y el motor de juego Stockfish. Como mi experiencia con Python es más que limitada, he tenido que lidiar con algunas sorpresas al ejecutar ChessPUPython en la Raspeberry, así que he aprovechado para, además de hacer las correciones obligadas, hacer algunas otras mejoras.
 
 Lanzando   
 
