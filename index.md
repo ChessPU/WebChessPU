@@ -9,7 +9,18 @@ header_height: 300px
     Menú inspirado en el tipo "Sidenav Overlay Examplo" de https://www.w3schools.com/howto/howto_js_sidenav.asp
     cuyo código de puede ver y probar en w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
 -->
+## Últimas entradas del blog
+<hr>
+<div class="row">
+  <br>
+  {% for post in site.posts limit:3 %}      
+    {% include blog/blog-card.html %}             
+  {% endfor %}  
+</div>
+
+
 ## El proyecto
+<hr>
 Con larga experiencia en programación, pero muy elementales conocimientos sobre electrónica y creación de circuitos, voy a tratar de construir un ajedrez electrónico capaz de jugar contra nosotros.
 
 Lo he bautizado Chess Processing Unit (**ChessPU** para abreviar). La verdad es que hacerlo partiendo de un sencillo tablero de madera, hace que el proyecto me resulte emocionante. Va a ser todo un reto conseguirlo.
