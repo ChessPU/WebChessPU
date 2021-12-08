@@ -17,7 +17,6 @@ He perdido mucho tiempo con innecesarios e infructuosos intentos de compilación
         {% assign img_url = "/assets/img/blog/2021-12-07/raspberry-stockfish-installation.jpg" %}
         {% assign img_description = "Instalación de Stockfish en Raspberry Pi 2" %}
         {% assign img_style = "" %}
-
         {% include blog/one-image.html %}
 
 Una vez hecho esto, tecleando
@@ -31,7 +30,6 @@ el motor de ajedrez se ha ejecutado a la primera y sin contratiempos. Para compr
         {% assign img_url = "/assets/img/stockfish/stockfish-running-on-raspberry.png" %}
         {% assign img_description = "Stockfish corriendo en Raspberry Pi 2" %}
         {% assign img_style = "" %}
-
         {% include blog/one-image.html %}
 
 
@@ -42,7 +40,14 @@ Una vez concluida la instalación, editando el fichero
     vi /var/lib/dpkg/info/stockfish.list
 
 ```
-podemos conocer la ubicacion de los componentes de Stockfish. Concretamente, el ejecutable queda en
+podemos conocer la ubicacion de los componentes de Stockfish. 
+
+       {% assign img_url = "/assets/img/blog/2021-12-07/stockfish-routes-file.png" %}
+       {% assign img_description = "Contenido del fichero stockfish.list" %}
+       {% assign img_style = "" %}
+       {% include blog/one-image.html %}
+
+Concretamente, el ejecutable queda en
 ```console
 
     /usr/games/stockfish
