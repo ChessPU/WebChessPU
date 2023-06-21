@@ -37,7 +37,7 @@ El conjunto del sistema se va a fundamentar en estos elementos:
 {% include blog/one-image.html %}
 
 #### A. El tablero
-Lógicamente es la base física primordial del proyecto. Le iremos haciendo modificaciones para que pase de ser una sencilla superficie de madera cuadriculada a una herramienta que permita la interacción entre el jugador humano y la máquina.
+Obviamente el tablero la base física primordial del proyecto. Le iremos haciendo modificaciones para que pase de ser una sencilla superficie de madera cuadriculada a una herramienta que permita la interacción entre el jugador humano y la máquina.
 
 - [Perforación y etiquetado]({{ site.url }}/pages/tablero.html)
 

@@ -23,8 +23,11 @@
         {{ content }}
         <br>
         <hr>
-        <span style="color: gray">Última actualización de esta entrada:</span><br> 
-        {{ page.last_update_date }} en {{ page.last_update_location }}
+        <span style="color: gray; font-size: small;">Creación de esta entrada:</span>
+        <span style="font-size: small">{{ page.creation_date }} {{ page.last_update_location }}</span>
+        <br>
+        <span style="color: gray; font-size: small;">Última actualización:</span>
+        <span style="font-size: small">{{ page.last_update_date }} {{ page.last_update_location }}</span>
         <br><br>
       </main>
     </div>   
