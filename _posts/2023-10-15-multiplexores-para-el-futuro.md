@@ -24,3 +24,14 @@ Hay muchos productos muy parecidos, como por ejemplo [este](https://amzn.eu/d/88
 pero vamos a ver si con los que he comprado hay suerte. De momento no tengo 
 experiencia ni criterio como para distinguir los matices de unos y otros.
 
+La idea es utilizar estos multiplexores para leer el estado de unos
+**interruptores magnéticos** situados debajo de cada casilla y que reaccionarán
+a la existencia o no de una pieza de ajedrez ubicada encima que lleva
+incorporado un imán. En su momento compré [este modelo](https://amzn.eu/d/7UPyihs) 
+con el que hice algún experimento con resultado positivo, pero se pueden
+comprar en mayor cantidad y a mejor precio ([ejemplo](https://amzn.eu/d/8bJKoLh)).
+
+        {% assign img_url = "/assets/img/blog/2023-10-15/interruptor_magnetico.jpg" %}
+        {% assign img_description = "Gebildet 10pcs 4W 3 Pin Vidrio Reed Interruptor" %}
+        {% assign img_style = "" %}
+        {% include blog/one-image.html %}
