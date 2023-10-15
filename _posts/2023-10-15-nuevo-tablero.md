@@ -31,7 +31,7 @@ Después de haber tomado las medidas oportunas...
 El procedimiento ha sido completamente manual, a base de escuadra, cartabón, regla y lápiz:
 
         {% assign img1_url = "/assets/img/blog/2023-10-15/tablerro-cuadricula-1.jpg" %}
-        {% assign img1_description = "EmpezandoDibujando la cuadrícula" %}
+        {% assign img1_description = "Dibujando la cuadrícula" %}
         {% assign img1_style = "border: 2px solid silver;" %}
         {% assign img2_url = "/assets/img/blog/2023-10-15/tablerro-cuadricula-2.jpg" %}
         {% assign img2_description = "Cuadrícula terminada" %}    
